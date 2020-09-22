@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- font awesome -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+			integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+			crossorigin="anonymous"
+		/>
+		<!--Import Google Icon Font-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!-- Compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Issa Ryan's 23rd!!</title>
+
+		<style>
+			body {
+				background-image: url(sanderson-soho-plain-china-blue-wallpaper-tiled-166101.jpg);
+			}
+			.pads {
+				padding-right: 40px !important;
+			}
+			/* label color */
+			.input-field label {
+				color: #000 !important;
+			}
+			/* label focus color */
+			.input-field input[type="text"]:focus + label {
+				color: #000 !important;
+			}
+			/* label underline focus color */
+			.input-field input[type="text"]:focus {
+				border-bottom: 1px solid #000 !important;
+				box-shadow: 0 1px 0 0 #000 !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="blue">
+			<nav class="nav-wrapper cyan darken-4">
+				<ul class="brand-logo center">
+					<li>
+						<a class="btn-floating pulse deep-orange accent-2 right-align">
+							<i class="material-icons" onclick="playAudio('s1.mp3')">cake</i>
+						</a>
+						<a class="btn-floating pulse light-blue darken-3"
+							><i class="material-icons" onclick="playAudio('s3.mp3')"
+								>time_to_leave</i
+							></a
+						>
+						<a class="btn-floating pulse indigo darken-4"
+							><i class="material-icons" onclick="playAudio('s2.mp3')"
+								>local_bar</i
+							></a
+						>
+
+						<a class="btn-floating pulse red darken-4"
+							><i class="material-icons" onclick="playAudio('s4.mp3')"
+								>redeem</i
+							></a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="header-text container">
+			<h1 onclick="stopmusic()" style="cursor: pointer">Hello, World!</h1>
+			<p class="flow-text">
+				Nothing to see here. Just some programming humour.
+			</p>
+		</div>
+
+		<hr />
+
+		<div class="body center">
+			<h1>Dear Ryan,</h1>
+			<img src="img.jpeg" width="400" height="500p" />
+
+			<div>
+				<p class="flow-text">Here's a lil surprise for you boi,</p>
+			</div>
+
+			<div>
+				<h2>
+					HAPPY BIRTHDAY!
+					<span class="redheart" style="font: size 80%; color: red"
+						>&hearts;</span
+					>
+				</h2>
+				<img
+					src="https://i1.wp.com/www.eventotb.com/wp-content/uploads/2019/09/Capture.jpg?fit=1154%2C644&ssl=1"
+					width="400p"
+				/>
+			</div>
+		</div>
+		<hr />
+
+		<div class="middle">
+			<div class="mid-text1 container">
+				<br />
+				<h5>
+					Fairly certain you weren't expecting me to pull off something like
+					this, were you?
+				</h5>
+				<h5>Now think of all the times you've called me un-OG.</h5>
+				<h5>Feel like shit yet?</h5>
+				<h6>Yes? Good. You can look to me and apologise now.</h6>
+				<h6>No? Keep scrolling. You'll get there soon enough ^_^</h6>
+				<br /><br />
+			</div>
+			<hr />
+
+			<div class="mid-text2 center container">
+				<br />
+				<img
+					src="https://memegenerator.net/img/instances/37766757.jpg"
+					width="400p"
+				/>
+				<h5>
+					<i>Dwight's not wrong because by 'fire', he meant the spark ;)</i>
+				</h5>
+				<br />
+			</div>
+		</div>
+		<hr />
+		<div class="center">
+			<br /><br /><br />
+			<img src="idk.jpeg" width="400p" />
+			<br /><br /><br />
+			<img src="egg.jpeg" width="400p" />
+			<br /><br /><br />
+			<img src="goldfish.jpeg" width="400p" />
+			<br /><br /><br />
+		</div>
+		<hr />
+
+		<div class="quiz container">
+			<h3>So, here's a quiz for you.</h3>
+			<h5>If you answer 8/10 correct, you unlock a secret message!</h5>
+			<br />
+
+			<div class="questions">
+				<form id="form" class="form">
+					<div class="input-field">
+						<input type="text" id="ans1" class="black-text" />
+						<label class="active" for="ans1">
+							Question 1: What are the three D's of a Nibbi ?
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans2" class="black-text" />
+						<label class="active" for="ans2">
+							Question 2: What is the name of the playlist you made for me ?
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans3" class="black-text" />
+						<label class="active" for="ans3">
+							Question 3: You'd once said I'm the _______to your Gru.
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans4" class="black-text" />
+						<label class="active" for="ans4">
+							Question 4: A very gay game that you did infact play with me for
+							HOURS everyday even though you’ll never accept having had played
+							it, to others?
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans5" class="black-text" />
+						<label class="active" for="ans5">
+							Question 5: Who’s my favourite avenger? (Hint- rhymes with iron
+							man)
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans6" class="black-text" />
+						<label class="active" for="ans6">
+							Question 6: Out of the many activities we’ve done together, which
+							one was the first?
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans7" class="black-text" />
+						<label class="active" for="ans7">
+							Question 7: Who’s the reigning pun champion of all time?
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans8" class="black-text" />
+						<label class="active" for="ans8">
+							Question 8: Even though Snuffle has an adorable name, you still
+							keep calling him this Bihari name that he’ll NEVER identify with
+							btw.
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans9" class="black-text" />
+						<label class="active" for="ans9">
+							Question 9: Out of the millions of stories you’ve told me, which
+							one do you think‘s my favourite?
+						</label>
+					</div>
+
+					<div class="input-field">
+						<input type="text" id="ans10" class="black-text" />
+						<label class="active" for="ans10">
+							Question 10: An online video sharing platform hitler hated?
+						</label>
+					</div>
+
+					<button type="submit" class="btn" onclick="answer()">Submit</button>
+				</form>
+			</div>
+			<br />
+			<h3 class="center"><span id="final"></span></h3>
+		</div>
+	</body>
+	<script src="index.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			M.updateTextFields();
+		});
+	</script>
+</html>
