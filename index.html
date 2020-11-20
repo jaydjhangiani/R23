@@ -20,31 +20,12 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
 		/>
 
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="static/style.css" />
 		<title>Issa Ryan's 23rd!!</title>
 
 		<style>
 			body {
-				background-image: url(sanderson-soho-plain-china-blue-wallpaper-tiled-166101.jpg);
-			}
-			.pads {
-				padding-right: 40px !important;
-			}
-			/* label color */
-			.input-field label {
-				color: #000 !important;
-			}
-			/* label focus color */
-			.input-field input[type="text"]:focus + label {
-				color: #000 !important;
-			}
-			/* label underline focus color */
-			.input-field input[type="text"]:focus {
-				border-bottom: 1px solid #000 !important;
-				box-shadow: 0 1px 0 0 #000 !important;
-			}
-			html {
-				text-align: justify !important;
+				background-image: url(static/img/sanderson-soho-plain-china-blue-wallpaper-tiled-166101.jpg);
 			}
 		</style>
 	</head>
@@ -55,21 +36,21 @@
 				<ul class="brand-logo center">
 					<li>
 						<a class="btn-floating pulse deep-orange accent-2 right-align">
-							<i class="material-icons" onclick="playAudio('s1.mp3')">cake</i>
+							<i class="material-icons" onclick="playAudio('./static/audio/s1.mp3')">cake</i>
 						</a>
 						<a class="btn-floating pulse light-blue darken-3"
-							><i class="material-icons" onclick="playAudio('s3.mp3')"
+							><i class="material-icons" onclick="playAudio('./static/audio/s3.mp3')"
 								>time_to_leave</i
 							></a
 						>
 						<a class="btn-floating pulse indigo darken-4"
-							><i class="material-icons" onclick="playAudio('s2.mp3')"
+							><i class="material-icons" onclick="playAudio('./static/audio/s2.mp3')"
 								>local_bar</i
 							></a
 						>
 
 						<a class="btn-floating pulse red darken-4"
-							><i class="material-icons" onclick="playAudio('s4.mp3')"
+							><i class="material-icons" onclick="playAudio('./static/audio/s4.mp3')"
 								>redeem</i
 							></a
 						>
@@ -89,7 +70,7 @@
 
 		<div class="body center">
 			<h1>Dear Ryan,</h1>
-			<img src="img.jpeg" width="400" height="500p" />
+			<img src="static/img/img.jpeg" width="400" height="500p" />
 
 			<div>
 				<p class="flow-text">Here's a lil surprise for you boi,</p>
@@ -140,11 +121,11 @@
 		<hr />
 		<div class="center">
 			<br /><br /><br />
-			<img src="idk.jpeg" width="400p" />
+			<img src="static/img/idk.jpeg" width="400p" />
 			<br /><br /><br />
-			<img src="egg.jpeg" width="400p" />
+			<img src="static/img/egg.jpeg" width="400p" />
 			<br /><br /><br />
-			<img src="goldfish.jpeg" width="400p" />
+			<img src="static/img/goldfish.jpeg" width="400p" />
 			<br /><br /><br />
 		</div>
 		<hr />
@@ -250,7 +231,7 @@
 			<br /><br />
 		</div>
 	</body>
-	<script src="index.js"></script>
+	<script src="static/index.js"></script>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
